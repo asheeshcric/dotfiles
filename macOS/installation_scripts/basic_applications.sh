@@ -15,4 +15,7 @@ brew install htop speedtest-cli
 # Install Youtube downloader for commandline
 brew install youtube-dl ffmpeg
 
+# Install cheatsheet
+brew install --cask cheatsheet
+
 echo "Read README.txt file to setup iTerm2 to make it behave like a dropdown terminal"
