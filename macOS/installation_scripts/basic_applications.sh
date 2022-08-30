@@ -10,7 +10,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 brew install --cask iterm2
 
 # Install htop and speedtest
-brew install htop speedtest-cli
+brew install htop speedtest-cli thefuck
+
+# Add thefuck alias to zshrc
+echo "
+eval $(thefuck --alias)" >> ~/.zshrc
 
 # Install Youtube downloader for commandline
 brew install youtube-dl ffmpeg
