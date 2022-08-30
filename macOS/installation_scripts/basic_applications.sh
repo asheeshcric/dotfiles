@@ -6,11 +6,14 @@ brew install --cask alfred
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
+# Install Google Chrome and Firefox
+brew install --cask google-chrome firefox
+
 # Install iTerm2 -- A dropdown terminal for MacOS
 brew install --cask iterm2
 
 # Install htop and speedtest
-brew install htop speedtest-cli thefuck
+brew install htop speedtest-cli thefuck bat
 
 # Add thefuck alias to zshrc
 echo "
