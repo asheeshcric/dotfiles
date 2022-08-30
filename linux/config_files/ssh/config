@@ -1,0 +1,14 @@
+Host zeus
+    Hostname heracleia-master.uta.edu
+    Port 300
+    User ashish
+
+Host poseidon
+    Hostname heracleia-master.uta.edu
+    Port 303
+    User ashish
+
+Host hades
+    Hostname heracleia-master.uta.edu
+    Port 297
+    User ashish
