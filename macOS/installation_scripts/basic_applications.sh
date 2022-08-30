@@ -7,7 +7,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 
 # Install iTerm2 -- A dropdown terminal for MacOS
-brew cask install iterm2
+brew install --cask iterm2
 
 # Install htop
 brew install htop
