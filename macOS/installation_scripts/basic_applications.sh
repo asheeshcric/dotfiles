@@ -9,7 +9,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Install iTerm2 -- A dropdown terminal for MacOS
 brew install --cask iterm2
 
-# Install htop
-brew install htop
+# Install htop and speedtest
+brew install htop speedtest-cli
+
+# Install Youtube downloader for commandline
+brew install youtube-dl ffmpeg
 
 echo "Read README.txt file to setup iTerm2 to make it behave like a dropdown terminal"
