@@ -5,10 +5,6 @@ brew install --cask alfred
 # Install OhMyZsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-
-# Install Google Chrome and Firefox
-brew install --cask google-chrome firefox
-
 # Install iTerm2 -- A dropdown terminal for MacOS
 brew install --cask iterm2
 
