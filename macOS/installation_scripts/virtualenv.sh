@@ -1,6 +1,9 @@
 # Install python3 if not already installed
 brew install python3
 
+# Install node for jupyterlab extension
+brew install node
+
 # Install packages
 pip3 install virtualenv virtualenvwrapper
 
@@ -16,3 +19,13 @@ source $(which virtualenvwrapper.sh)" >> ~/.zshrc
 
 # Source .zshrc to effect the changes
 source ~/.zshrc
+
+# Create a virtualenv for default necessary packages and install them
+mkvirtualenv default
+
+pip install numpy pandas matplotlib
+pip install jupyterlab ipykernel tornado ipympl
+ipython kernel install --user --name=asheesh
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib
+
+deactivate
