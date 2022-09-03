@@ -5,3 +5,5 @@ brew install --cask google-chrome firefox
 echo "Installing Discord ..."
 brew install --cask discord
 
+# Install a free screenshot tool
+brew install --cask shottr
