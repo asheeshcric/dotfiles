@@ -110,7 +110,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Virtualenvwrapper configuration
 export WORKON_HOME=~/.virtualenvs
-VIRTUALENVWRAPPER_PYTHON='/opt/homebrew/bin/python3'
+# VIRTUALENVWRAPPER_PYTHON='/opt/homebrew/bin/python3'
+VIRTUALENVWRAPPER_PYTHON=`which python3`
 source /opt/homebrew/bin/virtualenvwrapper.sh
 
 eval 
@@ -144,3 +145,4 @@ alias ldap-heracleia='sudo ssh -p 297 -f -L 80:127.0.0.1:80 -N ashish@heracleia-
 
 alias update='brew update'
 alias upgrade='brew upgrade'
+alias fuckoff='sudo shutdown -h now'
