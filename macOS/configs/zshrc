@@ -138,6 +138,7 @@ eval
 alias ssh-hades='ssh -t -p 297 ashish@heracleia-master.uta.edu'
 alias ssh-poseidon='ssh -p 303 ashish@heracleia-master.uta.edu'
 alias ssh-zeus='ssh -p 300 ashish@heracleia-master.uta.edu'
+alias ssh-office='ssh asheesh@cric.dhost.uta.edu'
 #alias uta-vpn='sudo openconnect --protocol=pulse https://pulse-vpn.uta.edu'
 alias uta-vpn='source /home/asheesh/Documents/Github/personal-preferences/dotfiles/commands/uta_vpn.sh'
 alias jup-heracleia='ssh -N -L 9000:127.0.0.1:9000 -t -p 300 ashish@heracleia-master.uta.edu'
