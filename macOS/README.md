@@ -7,5 +7,5 @@
 ## Other Initial Setup
 a. Install Bandwidth+ for Internet Speed Meter
 b. Install Scroll Reverser to fix external mouse scroll direction
-c. Follow this blog to setup iTerm2 as a dropdown terminal after installation
+c. Follow this [blog](https://blog.mestwin.net/drop-down-terminal-in-macos-with-iterm2/) to setup iTerm2 as a dropdown terminal after installation
 
